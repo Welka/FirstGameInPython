@@ -4,6 +4,7 @@ Author: Łukasz Welka
 
 Short description:
 Avoid asteroids and collect Bitcoins 
+
 Technologies
 
 Made in Pygame
