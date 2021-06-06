@@ -261,7 +261,7 @@ def game(Vol,Dif):
     pygame.mixer.init(frequency=22050,size=-16,channels=0,buffer=512)
     pygame.mixer.music.load(os.path.join("sounds","backsound.mp3"))
     pygame.mixer.music.play(loops = -1)
-    pygame.mixer.music.set_volume(Vol/100*0.3)
+    pygame.mixer.music.set_volume(Vol/100*0.7)
     pygame.init()
     def Create(x):
         if (x=="Asteroid"):
