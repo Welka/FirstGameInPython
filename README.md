@@ -15,3 +15,5 @@ Made in Pygame
 `cd Avoid_Asteroids`
 2. Install the project's development and runtime requirements: 
 `pip install -r requirements.txt`
+3. Run the game:
+`python AvoidAsteroids.py`

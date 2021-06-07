@@ -20,6 +20,7 @@ def Menu():
     Window_Height = 600
     pygame.init()
     screen = pygame.display.set_mode((Window_Width,Window_Height))
+    pygame.display.set_caption("Avoid Asteroids")
     pygame.display.flip()
     run=True
     CursorImage=loadimages("cursor.png")
@@ -52,6 +53,7 @@ def Menu():
         Points = Points.render("Avoid the asteroids and collect bitcoins to collect points",True,(255,255,255))
         PointsRect = Points.get_rect(center=(400,150))
         screen.blit(Points,PointsRect)
+
 
         pygame.display.flip()
         r=True
