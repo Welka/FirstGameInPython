@@ -14,7 +14,7 @@ Avoid asteroids and collect Bitcoins
 **Pygame** - Python Library designed to create arcade games.
 
 ### How to run this app?
-1. Clone the template project, replacing my-project with the name of the project you are creating: 
+1. Clone the template project, replacing my-project with the name of the project you are creating:<br/>
 `git clone https://github.com/Welka/FirstGameInPython.git Avoid_Asteroids`<br/>
 `cd Avoid_Asteroids`<br/>
 2. Install the project's development and runtime requirements:<br/> 
